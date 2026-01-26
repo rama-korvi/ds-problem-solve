@@ -1,7 +1,7 @@
 // linear search
 
 function linearSearch(arr, n) {
-    if (arr.length < 0) return -1;
+    if (arr.length === 0) return -1;
 
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === n) {
